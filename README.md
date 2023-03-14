@@ -27,20 +27,24 @@ La clase a testear unitariamente será Calculadora. La misma tiene definidos 3 m
 - boolean esMayorQue(Integer numero1, Integer numero2)
 
 ## Dependencias
-Las dependencias de utilizadas, que se pueden ver en el pom.xml, son:
+Las dependencias de testeo unitario utilizadas, que se pueden ver en el pom.xml, son:
 
 -  [junit-jupiter-engine](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine)
      ~~~ xml 
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-engine</artifactId>
-    <version>5.2.0\</version>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.2.0</version>
+    </dependency>
      ~~~
 
 -   [junit-platform-runner](https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner)
     ~~~ xml 
-    <groupId>org.junit.platform</groupId>
-    <artifactId>junit-platform-runner</artifactId>
-    <version>1.2.0</version>
+    <dependency>
+        <groupId>org.junit.platform</groupId>
+        <artifactId>junit-platform-runner</artifactId>
+        <version>1.2.0</version>
+    </dependency>
      ~~~
 
 
